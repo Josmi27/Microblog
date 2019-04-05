@@ -8,3 +8,6 @@ The final version of Microblog will have the following features:
 * An intelligent search engine, where results are ordered by relevancy (including partial results)
 * A live translate button for non-English posts
 * And more!
+
+
+Lastly, the link to the tutorial can be found here: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
