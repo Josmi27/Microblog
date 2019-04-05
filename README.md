@@ -1,2 +1,10 @@
 # Microblog
-This tutorial app serves as the start of my journey to learn how to create web applications with Python and the Flask framework.
+The final version of Microblog will have the following features:
+    - A registration page for users to create new accounts
+    - A user subsystem that will allow users to log in and out
+    - A password recovery option 
+    - Home page, where a user can view their perosnalized timeline
+    - Explore page, where a user can access posts by all Microblog users
+    - An intelligent search engine, where results are ordered by relevancy (including partial results)
+    - A live translate button for non-English posts
+    - And more!
