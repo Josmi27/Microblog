@@ -3,6 +3,8 @@ from app.config import Config
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_login import LoginManager
+from flask_mail import Mail
+# from flask_bootstrap import Bootstrap
 '''This file serves as the Flask application instance, which creates the application 
 object as an instance of class Flask imported from the flask package.'''
 
@@ -20,6 +22,8 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
 login = LoginManager(app)
+
+mail = Mail(app)
 
 #used for when user that is not logged in tries to access a protected page
 login.login_view = 'login'
