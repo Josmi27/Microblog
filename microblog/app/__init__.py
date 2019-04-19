@@ -5,6 +5,7 @@ from flask_migrate import Migrate
 from flask_login import LoginManager
 from flask_mail import Mail
 from flask_bootstrap import Bootstrap
+from flask_moment import Moment
 '''This file serves as the Flask application instance, which creates the application 
 object as an instance of class Flask imported from the flask package.'''
 
@@ -28,6 +29,7 @@ mail = Mail(app)
 #Flask-Bootstrap needs to be initialized like most other Flask extensions
 boostrap = Bootstrap(app)
 
+moment = Moment(app)
 #used for when user that is not logged in tries to access a protected page
 login.login_view = 'login'
 from app import routes, models, errors
